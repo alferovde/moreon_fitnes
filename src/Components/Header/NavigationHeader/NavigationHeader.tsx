@@ -5,7 +5,7 @@ import { header_menu } from '../../../store/local'
 import type { INavigationMenu } from '../../../interfaces/components_interfaes'
 import { NavLink } from 'react-router'
 import type { IWindowSize } from '../../../interfaces/any_interfaces'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import MobileMenuWindow from '../../MobileMenuWindow/MobileMenuWindow'
 const NavigationHeader = (width: IWindowSize) => {
 

@@ -6,7 +6,7 @@ import logo from '../../assets/img/header_logo.png'
 import { header_menu } from '../../store/local'
 import type { INavigationMenu } from '../../interfaces/components_interfaes'
 import { NavLink } from 'react-router'
-const MobileMenuWindow = ({setMyVar, myVar, width}:IProps) => {
+const MobileMenuWindow = ({setMyVar,  width}:IProps) => {
 
 
 

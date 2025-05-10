@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import 'animate.css';
 import './App.css'
-import phone from './assets/img/icons/Phone.svg'
+
 import Header from './Components/Header/Header'
 import type { IWindowSize } from './interfaces/any_interfaces';
 
