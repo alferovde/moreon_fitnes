@@ -1,16 +1,64 @@
 :root {
   font-family: "Montserrat", sans-serif;
   line-height: 140%;
-
+  min-width: 360px;
   --bg-color:#00100F;
   --accent-color:#33B0AA;
   --white:#ffffff;
+  --white80:#ffffffb7;
+
 
 }
 
 .container{
   max-width: 1280px;
- 
+  box-sizing: border-box;
   padding: 0 100px;
   margin: 0 auto;
+ }
+
+
+ h1{
+  font-size: 54px;
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--white);
+
+ }
+
+ h2{
+  font-size: 40px;
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--white);
+
+ }
+
+ a{
+
+  color: var(--white80);
+  font-weight: 400;
+  transition: .2s;
+  padding: 0 5px;
+  text-decoration: none;
+  font-size: clamp(0.625rem, 0.5272rem + 0.4348vw, 0.875rem);
+  
+ }
+
+ a.active{
+  font-weight: 500;
+
+  color: var(--white);
+ }
+
+
+ @media (max-width: 768px){
+  .container{
+    max-width: 768px;
+    box-sizing: border-box;
+    padding: 0 16px;
+    margin: 0 auto;
+   }
  }

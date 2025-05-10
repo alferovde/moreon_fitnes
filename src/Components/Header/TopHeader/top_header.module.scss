@@ -43,5 +43,33 @@ height: 40px;
         margin-left: 13px;
         text-decoration: none;
         color: var(--white);
+        font-weight: 600;
+        // min-width: 110px;
+    }
+}
+
+@media (max-width: 1000px){
+
+    .top_header__wrapper{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+    
+        ul{
+            display: flex;
+    
+            list-style: none;
+          
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+            margin-left: 48px;
+     
+    
+    
+          
+        }
     }
 }
