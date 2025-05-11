@@ -2,6 +2,7 @@
   font-family: "Montserrat", sans-serif;
   line-height: 140%;
   min-width: 360px;
+  --black:#000908;
   --bg-color:#00100F;
   --accent-color:#33B0AA;
   --white:#ffffff;
@@ -51,6 +52,29 @@
   font-weight: 500;
 
   color: var(--white);
+ }
+
+ .sub_title{
+  color: var(--white80);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+
+ }
+
+ .text_main{
+  font-weight: 400;
+  color: var(--white80);
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+ }
+
+ .tag_text{
+  font-size: 12px;
+  line-height: 180%;
+  color: var(--white80);
  }
 
 

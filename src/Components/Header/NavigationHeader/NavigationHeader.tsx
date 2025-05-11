@@ -49,8 +49,9 @@ const NavigationHeader = (width: IWindowSize) => {
 
 
                     : undefined}
+                    <NavLink to={'/'}> <img src={logo} alt="logo" /></NavLink>
 
-                <img src={logo} alt="logo" />
+               
 
                 {width.width < 1000 ? undefined : <nav className='animate__animated animate__bounceIn' >
                     {renderMenu()}

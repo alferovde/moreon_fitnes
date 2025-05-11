@@ -1,13 +1,13 @@
 .mobile_menu{
-    position: absolute;
+    position: fixed;
     min-width: 360px;
-   
+   height: 100vh;
     top: 0;
     left: 0;
     right: 0;
     background-color: var( --bg-color);
     text-align: center;
-   
+    overflow-y: hidden;
 
     nav{
         margin: 25px 0;

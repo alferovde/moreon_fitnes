@@ -4,6 +4,8 @@ import './App.css'
 
 import Header from './Components/Header/Header'
 import type { IWindowSize } from './interfaces/any_interfaces';
+import Footer from './Components/Footer/Footer';
+import MainPage from './Pages/MainPage/MainPage';
 
 function App() {
 
@@ -29,9 +31,9 @@ function App() {
 
 <Header {...windowSize}  />
 
+<MainPage/>
 
-
-
+<Footer/>
 
 </main>
   )

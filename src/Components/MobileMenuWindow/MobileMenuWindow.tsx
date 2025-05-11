@@ -31,9 +31,9 @@ const MobileMenuWindow = ({setMyVar,  width}:IProps) => {
 
     function renderMenu(){
         return header_menu.map((item:INavigationMenu)=>{
-            return <li key={item.id}>
+            return <li key={item.id} onClick={closeMobileMenu}>
                 <NavLink to={item.href}>
-{item.text}
+                    {item.text}
                 </NavLink>
             </li>
         })
