@@ -7,6 +7,7 @@
   --accent-color:#33B0AA;
   --white:#ffffff;
   --white80:#ffffffb7;
+  --white20:#ffffff20;
 
 
 }
@@ -25,6 +26,7 @@
   font-weight: 400;
   font-style: normal;
   color: var(--white);
+  line-height: 100%;
 
  }
 
@@ -75,6 +77,12 @@
   font-size: 12px;
   line-height: 180%;
   color: var(--white80);
+ }
+
+ .icon_text{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 140%;
  }
 
 

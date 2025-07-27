@@ -11,7 +11,7 @@ const NavigationHeader = (width: IWindowSize) => {
 
     const [mobileMenuWindow, setMobileMenuWindow] = useState<boolean>(false);
 
-    console.log(width.width)
+ 
 
 
     function openMobileMenu() {

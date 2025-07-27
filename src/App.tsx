@@ -1,11 +1,13 @@
 import { useState, useEffect } from 'react'
 import 'animate.css';
 import './App.css'
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Header from './Components/Header/Header'
 import type { IWindowSize } from './interfaces/any_interfaces';
 import Footer from './Components/Footer/Footer';
 import MainPage from './Pages/MainPage/MainPage';
+import {  Route, Routes } from 'react-router';
 
 function App() {
 
@@ -23,19 +25,24 @@ function App() {
   }, []);
 
 
-  
+
 
   return (
-<main className="">
+
+    <>
+
+      <Header {...windowSize} />
+
+      <Routes>
+
+        <Route path='/' element={<MainPage />} />
+
+      </Routes>
 
 
-<Header {...windowSize}  />
+      <Footer />
+    </>
 
-<MainPage/>
-
-<Footer/>
-
-</main>
   )
 }
 

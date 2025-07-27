@@ -1,0 +1,23 @@
+.color, .transparent{
+    padding: 15px 30px 17px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 500;
+    color: var(--white);
+    border: none;
+    outline: none;
+}
+
+.color{
+   
+
+    background: linear-gradient(180deg, #32DDD4 0%, #1A746F 100%,);
+}
+
+.transparent{
+    background: #2A7B9B;
+background: linear-gradient(180deg, #ffffff42 0%, #b5b5b521 100%,);
+
+}
